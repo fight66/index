@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .box {
+            width: 800px;
+            height: 800px;
+            border: 1px solid red;
+            display: flex;
+            /* 元素按照主轴排列 */
+            flex-direction: column;
+            /* 元素在c侧轴方向的对齐方式 */
+
+            /* 元素在侧轴开始对齐 */
+           align-items: flex-start;
+            /* 元素在侧轴结束时对齐 */
+            /* align-items: flex-end; */
+            /* 元素在侧轴中心对齐 */
+            align-items: center;
+            /* 默认值。拉伸 stretch */
+        
+        }
+         .one {
+            width: 100px;
+            height: 100px;
+            background-color: royalblue;
+        }
+        .two {
+            width: 100px;
+            height: 100px;
+            background-color: navajowhite;
+        }
+        .three {
+            width: 100px;
+            height: 100px;
+            background-color: orangered;
+        }
+        .four {
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+    </div>
+</body>
+</html>
